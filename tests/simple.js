@@ -51,7 +51,7 @@ describe('simple tests', function() {
         if (isWebSql) {
           return window.openDatabase(name, "1.0", "Demo", DEFAULT_SIZE);
         } else {
-          return window.sqlitePlugin.openDatabase(name, "1.0", "Demo", DEFAULT_SIZE);
+          return sqlitePlugin.openDatabase(name, "1.0", "Demo", DEFAULT_SIZE);
         }
       }
 
