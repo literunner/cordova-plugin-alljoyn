@@ -6,6 +6,8 @@
 
     <js-module src="tests.js" name="tests" />
 
+    <js-module src="simple.js" name="simple" />
+
     <js-module src="registration.js" name="registration" />
     <js-module src="connection.js" name="connection" />
     <js-module src="methods.js" name="methods" />
