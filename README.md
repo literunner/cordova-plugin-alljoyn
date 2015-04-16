@@ -1,9 +1,10 @@
 cordova-plugin-alljoyn
 ======================
 
-iOS | Windows | Android
+
+Android | iOS | Windows
 --- | --- | ---
-[![Build Status](https://travis-ci.org/AllJoyn-Cordova/cordova-plugin-alljoyn.svg?branch=master)](https://travis-ci.org/AllJoyn-Cordova/cordova-plugin-alljoyn) | [![Build status](https://ci.appveyor.com/api/projects/status/1sb4akgk195q8ch8/branch/master?svg=true)](https://ci.appveyor.com/project/AllJoyn-Cordova/cordova-plugin-alljoyn/branch/master) | [![Circle CI](https://circleci.com/gh/AllJoyn-Cordova/cordova-plugin-alljoyn/tree/master.svg?style=svg)](https://circleci.com/gh/AllJoyn-Cordova/cordova-plugin-alljoyn/tree/master)
+[![Circle CI](https://circleci.com/gh/literunner/cordova-plugin-alljoyn/tree/master.svg?style=svg)](https://circleci.com/gh/literunner/cordova-plugin-alljoyn/tree/master) | [![Build Status](https://travis-ci.org/literunner/cordova-plugin-alljoyn.svg?branch=master)](https://travis-ci.org/literunner/cordova-plugin-alljoyn) | [![Build status](https://ci.appveyor.com/api/projects/status/lit1x4nm3djtfw0b/branch/master?svg=true)](https://ci.appveyor.com/project/brodybits/cordova-plugin-alljoyn/branch/master)
 
 A Cordova plugin to expose the [AllJoyn](https://allseenalliance.org/alljoyn-framework-tutorial) Thin Client (AJTCL 14.12) to cross platform applications written in Javascript.
 
