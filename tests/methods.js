@@ -1,4 +1,16 @@
 describe('Implementing methods and replies', function () {
+
+    describe('methods timer test', function () {
+        it('sees done', function (done) {
+            setTimeout(function () {
+                expect(true).toBe(true);
+                done();
+            }, 500);
+        });
+    });
+
+    if (navigator.userAgent.match(/Android/)) return;
+
     var connectedBus = null;
 
     beforeEach(function (done) {
