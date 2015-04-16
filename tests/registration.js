@@ -9,8 +9,11 @@ describe('Object registration', function () {
                 }, 500);
             });
         });
+    }
+
+    if (navigator.userAgent.match(/Android/)) {
         return;
-    });
+    }
 
     it('registering valid objects', function (done) {
         var applicationObjects = [
