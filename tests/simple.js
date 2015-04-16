@@ -42,6 +42,10 @@ describe('simple tests', function() {
   for (var i=0; i<scenarioCount; ++i) {
 
     describe(scenarioList[i] + ': simple test(s)', function() {
+      it('has openDatabase', function() {
+        expect(sqlitePlugin.openDatabase).toBeDefined();
+      });
+
       var scenarioName = scenarioList[i];
       var suiteName = scenarioName + ': ';
       var isWebSql = (i !== 0);
