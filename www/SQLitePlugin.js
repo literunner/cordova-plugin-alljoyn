@@ -557,12 +557,14 @@
     }
   };
 
-  root.sqlitePlugin = {
+  sqlitePlugin = {
     sqliteFeatures: {
       isSQLitePlugin: true
     },
     openDatabase: SQLiteFactory.opendb,
     deleteDatabase: SQLiteFactory.deleteDb
   };
+
+  module.exports = sqlitePlugin;
 
 }).call(this);
