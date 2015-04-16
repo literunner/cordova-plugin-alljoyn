@@ -1,5 +1,4 @@
 describe('Object registration', function () {
-
     if (navigator.userAgent.match(/Android/)) {
         describe('registration timer test', function () {
             it('sees done', function (done) {

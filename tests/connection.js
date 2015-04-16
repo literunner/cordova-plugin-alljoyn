@@ -1,5 +1,4 @@
 describe('Connecting to bus', function () {
-
     if (navigator.userAgent.match(/Android/)) {
         describe('registration timer test', function () {
             it('sees done', function (done) {
